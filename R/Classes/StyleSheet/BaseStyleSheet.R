@@ -1,4 +1,4 @@
-source('~/R6-Presentation/R/Classes/StyleSheet/ProtoStyleSheet.R')
+# source('R/Classes/StyleSheet/ProtoStyleSheet.R')
 
 BaseStyleSheet <- R6Class(
       inherit = ProtoStyleSheet

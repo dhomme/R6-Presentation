@@ -1,4 +1,6 @@
 library(shiny)
+library(grid)
+library(R6)
 source("R/Chessboard.R")
 # Define a server for the Shiny app
 shinyServer(function(input, output) {

@@ -1,5 +1,5 @@
-source('~/R6-Presentation/R/Classes/Shape.R')
-source('~/R6-Presentation/R/Classes/StyleSheet/HouseOfStaunton.R')
+# source('R/Classes/Shape.R')
+# source('R/Classes/StyleSheet/HouseOfStaunton.R')
 ChessBoard = function(style="Basic") {
   grid.newpage()
   pushViewport(viewport(just=c("center", "center")))

@@ -1,4 +1,4 @@
-source('~/R6-Presentation/R/Classes/StyleSheet/BaseStyleSheet.R')
+# source('R/Classes/StyleSheet/BaseStyleSheet.R')
 
 ChessboardStyle <- R6Class(
       inherit = BaseStyleSheet
