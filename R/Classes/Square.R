@@ -1,4 +1,4 @@
-source('~/R6-Presentation/Shape.R')
+source('~/R6-Presentation/R/Classes/Shape.R')
 
 Square = R6Class(classname="Square"
    , inherit=Shape

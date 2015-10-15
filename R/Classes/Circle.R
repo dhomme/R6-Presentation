@@ -1,4 +1,4 @@
-source('~/Scripts/R6-Presentation/Shape.R')
+source('~/Scripts/R6-Presentation/R/Classes/Shape.R')
 
 Circle = R6Class(classname="Rectangle"
    , inherit=Shape
