@@ -1,15 +1,16 @@
 source('~/R6-Presentation/Shape.R')
-source('~/R6-Presentation/StyleSheet/ChessboardStyle.R')
+source('~/R6-Presentation/StyleSheet/HouseOfStaunton.R')
 
 grid.newpage()
 pushViewport(viewport(just=c("center", "center")))
 
 chesstool = Square$new()
-chess_style = ChessboardStyle$new()
+#chess_style = ChessboardStyle$new()
+chess_style = HouseOfStaunton$new()
 
 # Draw Base
 board_width = .8
-board_margin = .1
+board_margin = chess_style$Get('chess.border_margin')
 chesstool$Width = board_width + board_margin
 #chesstool$Draw(gpar(col="black", fill="black"))
 chesstool$Draw(chess_style$Get('square.gp.chess'))

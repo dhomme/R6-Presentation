@@ -1,6 +1,6 @@
 source('~/R6-Presentation/StyleSheet/ProtoStyleSheet.R')
 
-StyleSheet <- R6Class(
+BaseStyleSheet <- R6Class(
       inherit = ProtoStyleSheet
     , private = list(
       ###########################################

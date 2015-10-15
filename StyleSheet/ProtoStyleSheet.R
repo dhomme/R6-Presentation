@@ -36,9 +36,9 @@ ProtoStyleSheet = R6Class("ProtoStyleSheet"
           #print(private[[item]])
         }
       }
+      
+      ## Main public method for getting a style
       , Get = function(style_name) {
-        start = Sys.time()
-        #print(style_name)
         style = private[[style_name]]
         path = strsplit(style_name, '[.]')[[1]]
         path_minus_suffix = path[1:length(path)-1]
@@ -63,15 +63,6 @@ ProtoStyleSheet = R6Class("ProtoStyleSheet"
       }
     )
     , private = list(
-      ###########################################
-      ###########################################
-      ###########################################
-      ## List of General Properties of the Chart
-
-      ###########################################
-      ###########################################
-      ###########################################
-      
       
       # Overlay one list on top of another
       Overlay = function(a,b) {
