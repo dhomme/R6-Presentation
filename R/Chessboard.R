@@ -1,5 +1,8 @@
+library(R6)
+library(grid)
 # source('R/Classes/Shape.R')
 # source('R/Classes/StyleSheet/HouseOfStaunton.R')
+
 ChessBoard = function(style="Basic") {
   grid.newpage()
   pushViewport(viewport(just=c("center", "center")))
